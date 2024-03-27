@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./survey.css">
+</head>
+
+<body>
+    <!-- Create a Webpage Including Survey Form use a text field, checkbox, radio button, date, and other important elements in a single form using HTML and CSS -->
+<div id="campfom">
+    <form action="" id="myform">
+        <fieldset>
+          <legend> <h1>FreecodeCamp Survey Form</h1></legend> 
+            Enter Name : <input type="text" id="name" placeholder="Enter Your name" required><br><br>
+            Enter Email : <input type="email" id="email" placeholder="Enter Your Email" required><br><br>
+            Age <span>(Optional)</span>: <input type="number" id="age"><br><br>
+            Current Role :
+            <select name="" id="role">
+                <option disabled selected Only>Enter Your Role</option>
+                <option value="">Student</option>
+                <option value="">Pefer a Job</option>
+                <option value="">Learner</option>
+                <option value="">Prefer Not to Say</option>
+                <option value="">Other</option>
+            </select><br><br>
+            Date on Which You attend the Camp : <input type="date"><br><br>
+            Would You recommend freeCodeCamp to Your Friend?<br>
+            <input type="radio" name="rec">Yes
+            <input type="radio" name="rec">No
+            <input type="radio" name="rec">Maybe
+            <input type="radio" name="rec">Not Sure
+            <br><br>
+            What You Liked In Our Camp?<br>
+            <select  multiple size="5" >
+                <option value="Select-multiple-value" selected disabled>Select</option>
+                <option value="">Challeges</option>
+                <option value="">Open Source</option>
+                <option value="">Challenges</option>
+                <option value="">Projects</option>
+             
+            </select><br><br>
+            what would you like to see improved?<br>
+
+            <input type="checkbox" name="" id="">Difficulty Level <br>
+            <input type="checkbox" name="" id="">Front-End Projects <br>
+            <input type="checkbox" name="" id="">Backend Projects <br>
+            <input type="checkbox" name="" id="">Challenges <br>
+            <br><br>
+            Any Comments or suggestions?<br><br>
+            <textarea name="" id="" cols="50" rows="5" style="resize: none;"
+                placeholder="Enter Your Comments"></textarea><br><br>
+          <div class="btn">  <button type="submit" class="submit" id="btn">Submit</button></div>
+        </fieldset>
+    </form>
+
+    <script>
+        const btn=document.getElementById('btn');
+        btn.addEventListener('click', ()=>{
+                alert("Thank you for Submission")
+        });
+    </script>
+</div>
+</body>
+
+</html>

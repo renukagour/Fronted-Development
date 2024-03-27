@@ -1,0 +1,25 @@
+fieldset{
+    margin: 50px;
+}
+h1{
+    text-align: center;
+}
+
+body{
+    background-color: rgba(242, 197, 142, 0.2);
+    font-style: inherit;
+}
+
+span{
+    font-size: small;
+}
+button{
+    color: #fff;
+    background-color: brown;
+    
+}
+.btn{
+    /* border: 2px solid red; */
+    text-align: center;
+}
+
